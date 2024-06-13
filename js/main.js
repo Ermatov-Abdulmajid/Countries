@@ -1,5 +1,5 @@
-const foo = document.getElementById('the') ;
+const elSiteThemeToggler = document.querySelector('.site-header-theme-toggler');
 
-foo.addEventListener('click', function() {
-    document.body.classList.toggle('dark-mode');
+elSiteThemeToggler.addEventListener('click', function () {
+  document.body.classList.toggle('dark-mode');
 });
